@@ -1,0 +1,41 @@
+<div class="blog-wrapper section-padding-100-0 clearfix">
+  <div class="container" >
+    <div class="col-12 col-lg-12">
+
+      <!-- Single Blog Area  -->
+      <div class="single-blog-area blog-style-2 mb-50 wow fadeInUp" data-wow-delay="0.2s" data-wow-duration="1000ms">
+        <div class="row align-items-center" *ngFor="let p of page.paragraphes" >
+
+          <div class="col-12 col-md-6">
+            <!-- Blog Content -->
+            <div class="single-blog-content">
+
+              <h4><a href="#" class="post-headline">{{p.titre}}</a></h4>
+              <p [innerHTML]="p.contenue"></p>
+              <br><br><br>
+
+
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+
+            <div *ngFor="let i of p.images">
+              <img [src]="i.relativePath" alt="">
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+
+
+
+
+
+      </div>
+
+
+    </div></div>
+</div>

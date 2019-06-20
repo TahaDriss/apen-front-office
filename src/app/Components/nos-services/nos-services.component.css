@@ -1,0 +1,25 @@
+.test {
+color: #0b1216;
+height: 50px ;
+ font-weight : bold
+}
+
+button {
+  padding :30px ;
+  max-height : 100px ;
+  marginLeft : 0px
+}
+.squarewhite2 {
+  width: 80%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: auto;
+  margin-top: 2%
+}
+
+.row2{
+  background: #0b1216;
+  width: 90%;
+  margin: 0 auto;
+  padding-left: 0px
+}
